@@ -51,6 +51,7 @@ export const setup = (
     startButton.addEventListener('click', () => {
         startButton.disabled = true
 
+        direction = ''
         isInitDraw = false
         update()
     })
